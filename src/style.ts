@@ -1,4 +1,5 @@
 import { styled } from "styled-components";
+import { StylesConfig, GroupBase } from "react-select";
 
 export const AppContainerStyles = styled.div`
   font-family: "Inter";
@@ -83,7 +84,7 @@ export const FunctionContainerStyles = styled.div`
   }
 `;
 
-export const customStyles = {
+export const customStyles: StylesConfig<any, false, GroupBase<any>> = {
   control: (provided, state) => ({
     ...provided,
     border: "1px solid #d3d3d3",
