@@ -41,7 +41,7 @@ const FunctionContainer = forwardRef<HTMLDivElement, FunctionCardProps>(
       <FunctionContainerStyles ref={ref}>
         <div className="header">
           <MemoFunctionSVG />
-          <span>Function {index}</span>
+          <span>Function: {index}</span>
         </div>
         <div className="equation">
           <span className="label">Equation</span>
